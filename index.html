@@ -1,29 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, inital-scale=1.0">
-  <title>Selim Emir Can Portfolio Website</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Selim Emir Can Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  </head>
 
-<h1>About Me</h1>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/ece-sam-logo.png" alt="">
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Personal projects</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
 
+    <!-- Introoduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section_title--intro">
+        Hi, I am <strong>Selim Emir Can</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img src="images/Ski.jpg" alt="a picture of Selim Emir Can smiling">
 
-<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-  laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-  quasi architecto beatae vitae dicta sunt explicabo. Nemo <b>enim ipsam voluptatem </b>
-   quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-  eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-  <br><br> qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-  aliquam <a href="https://www.google.com">quaerat </a> voluptatem. <hr> Ut
-  enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
-  <strong>laboriosam </strong>, nisi ut aliquid ex ea commodi consequatur?
-  Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
-  nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
-  nulla pariatur?".</p>
+      <!-- About Me-->
+      <section class="about-me" id="about-me">
+        <h2 class="section__title section__title--about-me">What I do</h2>
+        <div class="services"> <!-- CHANGE LATER -->
+          <div class="service">
+            <h3>
+            </h3>
+            <p></p>
+          </div> <!-- service -->
 
-</body>
+          <div class="service">
+            <h3>
+            </h3>
+            <p></p>
+          </div> <!-- service -->
+
+          <div class="service">
+            <h3>
+            </h3>
+            <p></p>
+          </div> <!-- service -->
+        </div> <!-- services -->
+
+        <a href="#work" class="btn">My Work</a>
+      </section>
+    </section>
+  </body>
+
 </html>
